@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run dev:*)",
+      "WebFetch(domain:localhost)",
+      "Bash(npx tsc:*)",
+      "Bash(del \"c:\\\\Users\\\\nkoji\\\\home\\\\YuruMovieManageApp-dev\\\\YuruMovieManagementApp\\\\src\\\\styles.css\")",
+      "Bash(npx vite build)",
+      "Bash(npm run tauri:*)",
+      "Bash(netstat:*)",
+      "Bash(findstr:*)",
+      "Bash(taskkill:*)",
+      "Bash(npm install:*)",
+      "Bash(cargo check:*)",
+      "Bash(npm run check:*)",
+      "Bash(npm run build:*)"
+    ]
+  }
+}
