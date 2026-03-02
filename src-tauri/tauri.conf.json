@@ -1,8 +1,8 @@
 {
   "$schema": "https://schema.tauri.app/config/2",
-  "productName": "yurumoviemanagementapp",
+  "productName": "YuruScheduler",
   "version": "0.1.0",
-  "identifier": "com.nkoji.yurumoviemanagementapp",
+  "identifier": "com.nkoji.yuruscheduler",
   "build": {
     "beforeDevCommand": "npm run dev",
     "devUrl": "http://localhost:1420",
@@ -13,7 +13,7 @@
     "withGlobalTauri": true,
     "windows": [
       {
-        "title": "yurumoviemanagementapp",
+        "title": "YuruScheduler",
         "width": 800,
         "height": 600,
         "minWidth": 800,

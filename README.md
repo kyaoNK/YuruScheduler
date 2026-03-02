@@ -1,10 +1,10 @@
-# ゆる動画管理アプリ
+# YuruScheduler
 
 動画制作の工程管理を効率化するデスクトップアプリケーション
 
 ## 概要
 
-ゆる動画管理アプリは、動画制作者のための工程管理ツールです。公開日から逆算して各工程の締切を自動生成し、視覚的な警告機能でタスク管理をサポートします。
+YuruSchedulerは、動画制作者のための工程管理ツールです。公開日から逆算して各工程の締切を自動生成し、視覚的な警告機能でタスク管理をサポートします。
 
 ### 主な機能
 
@@ -43,7 +43,7 @@
 ```bash
 # リポジトリをクローン
 git clone <repository-url>
-cd YuruMovieManagementApp
+cd YuruScheduler
 
 # 依存関係をインストール
 npm install
@@ -112,7 +112,7 @@ npm run tauri build
 ## プロジェクト構造
 
 ```
-YuruMovieManagementApp/
+YuruScheduler/
 ├── src/
 │   ├── components/      # Reactコンポーネント
 │   │   ├── Card/        # カード関連

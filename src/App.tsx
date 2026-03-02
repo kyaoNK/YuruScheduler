@@ -41,7 +41,7 @@ function App() {
 
   const [currentView, setCurrentView] = useState<'timeline' | 'calendar'>(() => {
     // localStorageから表示モードを読み込む
-    const saved = localStorage.getItem('yuru_movie_view_mode');
+    const saved = localStorage.getItem('yuruscheduler_view_mode');
     return (saved === 'calendar' ? 'calendar' : 'timeline') as 'timeline' | 'calendar';
   });
   const [isFormOpen, setIsFormOpen] = useState(false);
@@ -51,7 +51,7 @@ function App() {
 
   // 表示モードが変更されたらlocalStorageに保存
   useEffect(() => {
-    localStorage.setItem('yuru_movie_view_mode', currentView);
+    localStorage.setItem('yuruscheduler_view_mode', currentView);
   }, [currentView]);
 
   // カード作成/編集フォームの送信処理

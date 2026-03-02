@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-ゆる動画管理アプリ (Yuru Movie Management App) — a desktop app for video creators to manage production schedules. Built with Tauri 2 (Rust backend) + React 19 + TypeScript + Tailwind CSS 4 + Vite frontend. Data is stored in localStorage with automatic backup to the filesystem via Tauri's fs plugin.
+ゆるスケジューラ (YuruScheduler) — a desktop app for video creators to manage production schedules. Built with Tauri 2 (Rust backend) + React 19 + TypeScript + Tailwind CSS 4 + Vite frontend. Data is stored in localStorage with automatic backup to the filesystem via Tauri's fs plugin.
 
 ## Commands
 

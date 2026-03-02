@@ -1,7 +1,7 @@
 import type { AppData, AppSettings, Card, CardStorage, ProcessStep } from '../types';
 import { writeBackup } from './backup';
 
-const STORAGE_KEY = 'yuru_movie_management_app_data';
+const STORAGE_KEY = 'yuruscheduler_data';
 
 /**
  * デフォルトの工程ステップ

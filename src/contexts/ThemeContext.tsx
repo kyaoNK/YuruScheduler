@@ -12,7 +12,7 @@ const ThemeContext = createContext<ThemeContextType | undefined>(undefined);
 export function ThemeProvider({ children }: { children: ReactNode }) {
   const [theme, setTheme] = useState<Theme>(() => {
     // localStorageからテーマを読み込む
-    const saved = localStorage.getItem('yuru_movie_theme');
+    const saved = localStorage.getItem('yuruscheduler_theme');
     // システムのダークモード設定も考慮
     if (saved === 'dark' || saved === 'light') {
       return saved;
@@ -23,7 +23,7 @@ export function ThemeProvider({ children }: { children: ReactNode }) {
 
   useEffect(() => {
     // テーマが変更されたらlocalStorageに保存
-    localStorage.setItem('yuru_movie_theme', theme);
+    localStorage.setItem('yuruscheduler_theme', theme);
 
     // HTMLのルート要素にdarkクラスを追加/削除
     if (theme === 'dark') {

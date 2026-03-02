@@ -1,6 +1,6 @@
 import { useState, useCallback, useMemo } from 'react';
 
-const STORAGE_KEY = 'yuru_movie_calendar_column_widths';
+const STORAGE_KEY = 'yuruscheduler_calendar_column_widths';
 const DEFAULT_WIDTHS = [1, 1, 1, 1, 1, 1, 1];
 
 function loadWidths(): number[] {

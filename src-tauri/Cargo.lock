@@ -4956,7 +4956,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "yurumoviemanagementapp"
+name = "yuruscheduler"
 version = "0.1.0"
 dependencies = [
  "serde",
